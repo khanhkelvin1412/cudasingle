@@ -1,0 +1,656 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.eachskill {
+    width: 25%;
+    text-align: center;
+}
+
+.skillpercent {
+    width: 100%;
+    margin-top: 94px;
+}
+
+.fourskill {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.infomember .hinh {
+    margin: auto;
+}
+
+.infomember.col-sm-3 {
+    text-align: center;
+    margin: auto;
+}
+.infomember{
+    width: 100%;
+}
+
+.portabout .eachabout img {
+    width: 90%;
+}
+
+.lh.twiter {
+    color: #30bae7;
+}
+
+.lh {
+    width: 140px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.row.contact_ {
+    width: 980px;
+    margin: auto;
+    margin-top: 48p;
+    padding-top: 46px;
+}
+
+.contact {
+    width: 76%;
+    height: 121px;
+    margin: auto;
+    background: #344b8e;
+}
+
+button.btn.btn-warning.text-light.shadow-sm.maucam.xanhnuoc {
+    background: #30bae7;
+    /* border: none; */
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.nameandemail {
+    margin-bottom: 27px;
+}
+
+input#inputAddress {
+    height: 200px;
+    /* text-align: center; */
+}
+
+input#inputAddress {}
+
+input.form-control.acount {
+    height: 56px;
+}
+
+input.form-control {
+    background: #273a71;
+    border: none;
+    color: white;
+}
+
+.infofeedback {
+    width: 870px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.feedback .chube {
+    font-size: 18px;
+    width: 800px;
+    /* margin: auto; */
+}
+
+.feedback .gachdong {
+    background: #273a71;
+}
+
+.feedback .chuto {
+    text-align: center;
+}
+
+.feedback {
+    width: 76%;
+    margin: auto;
+    height: 819px;
+    background: #3c5499;
+}
+
+.groupreview1 {
+    line-height: 25px;
+}
+
+.positiongroup {
+    font-size: 18px;
+    color: #ffdd99;
+}
+
+.namegroup {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.groupreview {
+    /* padding-top: 10px; */
+}
+
+.smalltextreview {
+    font-size: 21px;
+    color: white;
+    margin-bottom: 17px;
+    font-style: italic;
+}
+
+.graycircle {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background: #787878;
+}
+
+.col-sm-6.reviewleft {
+    /* display: flex; */
+}
+
+.col-sm-9.groupreview {
+    width: 100%;
+}
+
+.col-sm-3.circle {
+    /* width: 96px; */
+    /* height: 96px; */
+    /* border-radius: 50%; */
+    /* background: #787878; */
+}
+
+.row.review1 {
+    width: 100%;
+    margin: auto;
+    margin-top: 85px;
+}
+
+.review {
+    width: 90%;
+    margin: auto;
+}
+
+.aboutus .gachdong {
+    background: #b73c6d;
+}
+
+.aboutus .chuto {
+    width: 600px;
+    /* margin: auto; */
+    text-align: center;
+}
+
+.aboutus {
+    height: 794px;
+    width: 76%;
+    margin: auto;
+    background-color: #d74680;
+}
+
+.aboutus {}
+
+button.btn.btn-warning.text-light.shadow-sm.maucam.xanh {
+    background: #17c2a4;
+}
+
+.eachabout .dongtext {
+    width: 100%;
+    text-align: center;
+    margin-top: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 19px;
+    /* transform: perspective(10px); */
+}
+
+.eachabout {
+    width: 47%;
+    margin-right: 30px;
+    margin-top: 66px;
+    text-align: center;
+}
+
+button.btn.btn-primary.nutport.sammau {
+    background: white;
+}
+
+button.btn.btn-primary.nutport.sammau {}
+
+.portabout {
+    margin-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.row.cacnut {
+    width: 450px;
+    margin: auto;
+    /* text-align: center; */
+    /* margin-bottom: 67px; */
+    margin-top: 47px;
+}
+
+.dautu .chube {
+    color: #000000bf;
+    width: 525px;
+}
+
+.dautu .gachdong {
+    background: #e5c37f;
+}
+
+.dautu .chuto {
+    text-align: center;
+    color: #000000bf;
+    font-weight: bold;
+}
+
+.dautu {
+    height: 1423px;
+    width: 76%;
+    margin: auto;
+    background: #ffdd99;
+}
+
+.skillname {
+    font-size: 21px;
+    font-weight: bold;
+    width: 160px;
+    text-align: center;
+    margin-top: 190px;
+}
+
+.skill .chube {
+    color: black;
+}
+
+.skill .chuto {
+    color: black;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+.skill {
+    width: 76%;
+    height: 655px;
+    margin: auto;
+}
+
+.row.lienhe {
+    width: 200px;
+    margin: auto;
+    margin-top: 45px;
+}
+
+.gioithieu {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    /* height: 150px; */
+}
+
+.memberrole {
+    width: 200px;
+    text-align: center;
+    color: #8cd1ee;
+    cursor: pointer;
+    margin: auto;
+}
+
+.nut{
+    text-align: center;
+}
+.tenmember {
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    margin: auto;
+    margin-top: 45px;
+}
+
+.tenmember {}
+
+.row.hang {
+    width: 100%;
+    margin: auto;
+    margin-top: 83px;
+}
+
+.members {
+    width: 90%;
+    margin: auto;
+}
+
+.members .row .infomember .hinh {
+    width: 200px;
+    height: 200px;
+    background: #878787;
+    border-radius: 50%;
+}
+
+.employee .chube {
+    color: black;
+    font-size: 16px;
+}
+
+.employee .gachdong {
+    background: #c8d9e5;
+}
+
+.employee .chuto {
+    color: black;
+    width: 600px;
+    text-align: center;
+}
+
+.employee {
+    width: 76%;
+    background: #e7f1f8;
+    margin: auto;
+    height: 914px;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+.chuaanh {
+    width: 100%;
+    text-align: center;
+}
+
+.row_hang{
+    width: 100%;
+    margin: auto;
+}
+
+.tenservice {
+    color: white;
+    width: 100%;
+    /* margin: auto; */
+    margin-top: 60px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 27px;
+    font-weight: 500;
+}
+
+.noidungservice {
+    width: 25%;
+}
+
+.service {
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+}
+
+.chube {
+    color: white;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 22px;
+}
+.noidungservice .chuaanh img {
+    height: 130px;
+}
+
+
+.gachdong {
+    width: 85px;
+    height: 4px;
+    background-color: #14a58c;
+    margin: auto;
+    margin-top: 13px;
+}
+
+.skill .gachdong {
+    background: #dfe8ed;
+}
+
+.gachdong {}
+
+.chuto {
+    font-size: 40px;
+    color: white;
+    width: 410px;
+    margin: auto;
+    padding-top: 76px;
+}
+
+.servicebanner {
+    width: 76%;
+    background-color: #17c2a4;
+    height: 747px;
+    margin: auto;
+}
+
+
+
+.noidung {
+    margin-top: 120px;
+    font-size: 42px;
+    width: 100%;
+}
+
+img.logo {
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+.tieude{
+    background-color: #87509c;
+    height: 600px;
+    width: 76%;
+    margin: auto;
+}
+
+.menu {
+    float: right;
+    margin-top: 60px;
+    margin-right: 45px;
+    font-size: 24px;
+    margin-right: 186px;
+}
+
+.maudam{
+    background-color: #643a79;
+    width: 110px;
+    /* border: yellowgreen; */
+    text-align: center;
+    border-radius: 10px;
+}
+
+.maucam{
+    background-color: #eb7d4b;
+    width: 294px;
+    margin-top: 61px;
+    height: 70px;
+    font-size: 18px;
+    border-bottom: 3px solid #efc2c2;
+    font-weight: 600;
+    animation: nuthienlen 0.9s forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+@-webkit-keyframes nuthienlen{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.nut{
+    width: 300px;
+    margin: auto;
+}
+
+.nutport{
+    margin: 0px 7px;
+    padding: 5px 29px;
+    background: #ebc985;
+    border: none;
+    color: black;
+}
+.nutport .sammau{
+    background-color: white;
+}
+
+.message ::placeholder {
+    color: white;
+    opacity: 1;
+   /* Firefox */
+  }
+  .nameandemail ::placeholder{
+      color: white;
+  }
+
+  /* animation */
+
+  .noidungtren, .noidungduoi {
+    width: 100%;
+    /* margin: auto; */
+    text-align: center;
+    color: white;
+    animation: ndhienra 0.9s forwards;
+    animation-delay: 0.5s;
+}
+
+@-webkit-keyframes ndhienra{
+    0%{
+        opacity: 0;
+        transform: translateX(-30%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.tenskill {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 36px;
+    font-weight: bold;
+}
+
+
+
+/* 
+Process circle
+ */
+
+
+ /**
+ * Inspiration for this project found at:
+ * https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart
+ * 1. The `reverse` animation direction plays the animation backwards
+ *    which makes it start at the stroke offset 100 which means displaying
+ *    no stroke at all and animating it to the value defined in the SVG
+ *    via the inline `stroke-dashoffset` attribute.
+ * 2. Rotate by -90 degree to make the starting point of the
+ *    stroke the top of the circle.
+ * 3. Using CSS transforms on SVG elements is not supported by Internet Explorer
+ *    and Edge, use the transform attribute directly on the SVG element as a
+ * .  workaround.
+ */
+
+.circle-chart {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .circle-chart__circle {
+    stroke: #00acc1;
+    stroke-width: 2;
+    stroke-linecap: square;
+    fill: none;
+    animation: circle-chart-fill 2s reverse; /* 1 */ 
+    transform: rotate(-90deg); /* 2, 3 */
+    transform-origin: center; /* 4 */
+  }
+  
+  /**
+   * 1. Rotate by -90 degree to make the starting point of the
+   *    stroke the top of the circle.
+   * 2. Scaling mirrors the circle to make the stroke move right
+   *    to mark a positive chart value.
+   * 3. Using CSS transforms on SVG elements is not supported by Internet Explorer
+   *    and Edge, use the transform attribute directly on the SVG element as a
+   * .  workaround.
+   */
+  
+  .circle-chart__circle--negative {
+    transform: rotate(-90deg) scale(1,-1); /* 1, 2, 3 */
+  }
+  
+  .circle-chart__background {
+    stroke: #efefef;
+    stroke-width: 2;
+    fill: none; 
+  }
+  
+  .circle-chart__info {
+    animation: circle-chart-appear 2s forwards;
+    opacity: 0;
+    transform: translateY(0.3em);
+  }
+  
+  .circle-chart__percent {
+    alignment-baseline: central;
+    text-anchor: middle;
+    font-size: 8px;
+  }
+  
+  .circle-chart__subline {
+      alignment-baseline: central;
+      text-anchor: middle;
+      font-size: 3px;
+  }
+  
+  .success-stroke {
+    stroke: #00C851;
+  }
+  
+  .warning-stroke {
+    stroke: #ffbb33;
+  }
+  
+  .danger-stroke {
+    stroke: #ff4444;
+  }
+  
+  @keyframes circle-chart-fill {
+    to { stroke-dasharray: 0 100; }
+  }
+  
+  @keyframes circle-chart-appear {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

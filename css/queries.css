@@ -1,0 +1,619 @@
+@media only screen and (max-width:1644px){
+    .eachabout {
+        width: 44%;
+        margin-right: 30px;
+        /* margin-top: 66px; */
+        text-align: center;
+        margin: auto;
+        margin-top: 66px;
+    }
+    .dautu {
+        height: 1219px;
+    }
+}
+@media only screen and (max-width:1500px){
+    .noidung{
+        font-size: 38px;
+        margin-top: 75px;
+    }
+    .maucam{
+        width: 280px;
+        height: 64px;
+    }
+    .tieude{
+        height: 540px;
+    }
+    .members .row .infomember .hinh {
+        width: 172px;
+        height: 172px;
+        background: #878787;
+        border-radius: 50%;
+        margin: auto;
+    }
+    .tenmember{
+        margin: auto;
+        margin-top: 40px;
+    }
+    .gioithieu{
+        margin: auto;
+        margin-top: 15px;
+    }
+    .memberrole{
+        margin: auto;
+    }
+    .row .lienhe{
+        margin: auto;
+    }
+    .employee{
+        height: 820px;
+    }
+    .smalltextreview{
+        font-size: 17px;
+    }
+    img.logo {
+        margin-top: 70px;
+        margin-left: 127px;
+    }
+    .menu{
+        font-size: 22px;
+    }
+    .noidung{
+        font-size: 34px;
+    }
+}
+
+@media only screen and (max-width:1390px){
+    img.logo {
+        margin-top: 77px;
+        margin-left: 127px;
+    }
+    .chuto{
+        font-size: 34px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:1270px){
+    .graycircle{
+        width: 80px;
+        height: 80px;
+    }
+    .circle-chart {
+        width: 135px;
+        height: 135px;
+    }
+    .skill {
+        height: 572px;
+    }
+    .tenskill{
+        font-size: 18px;
+    }
+    .namegroup{
+        font-size: 20px;
+    }
+    .positiongroup{
+        font-size: 15px;
+    }
+    img.logo{
+        width: 90px;
+    }
+    .tieude{
+        height: 490px;
+    }
+    .menu{
+        margin-right: 83px;
+    }
+    .noidung{
+        font-size: 30px;
+        margin-top: 80px;
+    }
+    .maucam{
+        width: 220px;
+        height: 50px;
+    }
+    .members .row .infomember .hinh{
+        width: 136px;
+        height: 136px;
+    }
+    .tenservice{
+        font-size: 19px;
+        margin-top: 26px;
+        margin-bottom: 5px;
+    }
+    .noidungservice .chuaanh img{
+        height: 100px;
+    }
+    .menu {
+        font-size: 18px;
+    }
+    .text{
+        font-size: 14px;
+    }
+    .servicebanner {
+        height: 560px;
+    }
+    .chuto{
+        padding-top: 50px;
+    }
+    .service{
+        margin-top: 50px;
+    }
+    .tenmember{
+        width: 100%;
+        font-size: 19px;
+    }
+    .memberrole{
+        width: 100%;
+    }
+    .gioithieu{
+        width: 100%;
+        font-size: 14px;
+        height: 130px;
+    }
+    .row.lienhe{
+        width: 100%;
+    }
+    .lienhe .icon img {
+        width: 27px;
+    }
+    .employee{
+        height: 714px;
+    }
+    .dautu{
+        height: 1000px;
+    }
+    .hinh{
+        width: 120px;
+        height: 120px;
+    }
+    .eachabout .dongtext{
+        font-size: 15px;
+    }
+    .smalltextreview{
+        font-size: 15px;
+    }
+    .graycircle{
+        width: 68px;
+        height: 68px;
+    }
+    .aboutus{
+        height: 700px;
+    }
+    .infofeedback{
+        width: 80%;
+    }
+    .chube{
+        font-size: 15px;
+    }
+    .chuto{
+        font-size: 30px;
+    }
+    .feedback .chube{
+        font-size: 15px;
+    }
+    input#inputAddress{
+        height: 175px;
+    }
+    .feedback{
+        height: 662px;
+    }
+    .row.contact_{
+        width: 94%;
+    }
+    .lh{
+        width: 14%;
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width:1070px){
+    img.logo {
+        width: 80px;
+        margin-left: 100px;
+    }
+   
+    .circle-chart {
+        width: 125px;
+        height: 125px;
+    }
+    .tenskill {
+        font-size: 16px;
+    }
+    .skill {
+        height: 542px;
+    }
+    .menu {
+        font-size: 15px;
+    }
+    .noidung {
+        font-size: 22px;
+        margin-top: 45px;
+        /* margin-top: 80px; */
+    }
+    .tieude {
+        height: 410px;
+    }
+    .noidungservice .chuaanh img {
+        height: 85px;
+    }
+    .row.hang {
+        margin-top: 50px;
+    }
+    .members .row .infomember .hinh {
+        width: 100px;
+        height: 100px;
+    }
+    .tenmember {
+        margin-top: 18px;
+        font-size: 15px;
+    }
+    .memberrole {
+        font-size: 13px;
+    }
+    .gioithieu {
+        font-size: 12px;
+    }
+
+    .row.lienhe {
+        width: 100%;
+    }
+    .employee{
+        height: 620px;
+    }
+
+    .feedback .chube{
+        width: 550px;
+        font-size: 12px;
+    }
+    .dautu{
+        height: 940px;
+    }
+
+}
+
+@media only screen and (max-width:900px){
+    .chube{
+        width: 80%;
+        font-size: 13px;
+    }
+    .circle-chart {
+        width: 85px;
+        height: 85px;
+    }
+    
+    .tenskill {
+        font-size: 13px;
+    }
+    .skill {
+        height: 490px;
+    }
+    .chuto{
+        font-size: 25px;
+    }
+    .tenservice{
+        font-size: 13px;
+    }
+    .noidungservice .chuaanh img {
+        height: 75px;
+    }
+    .text {
+        font-size: 10px;
+    }
+    .servicebanner {
+        height: 466px;
+    }
+    .members .row .infomember .hinh {
+        width: 85px;
+        height: 85px;
+    }
+    .tenmember {
+        font-size: 12px;
+    }
+    .memberrole {
+        font-size: 10px;
+    }
+    .gioithieu {
+        font-size: 9px;
+    }
+    .row.lienhe {
+        display: none;
+    }
+    .employee {
+        height: 522px;
+    }
+    .dautu .chube {
+        font-size: 12px;
+        width: 60%;
+    }
+    .row.cacnut {
+        width: 65%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .nutport {
+        padding: 3px 20px;
+    }
+    .eachabout {
+        width: 40%;
+        margin-top: 50px;
+    }
+    .eachabout .dongtext {
+        font-size: 11px;
+    }
+    .dautu {
+        height: 786px;
+    }
+    .row.review1 {
+        margin-top: 46px;
+    }
+    .graycircle {
+        width: 55px;
+        height: 55px;
+    }
+    .smalltextreview {
+        font-size: 12px;
+    }
+    .namegroup{
+        font-size: 17px;
+    }
+    .positiongroup {
+        font-size: 12px;
+    }
+    .aboutus {
+        height: 590px;
+    }
+    .feedback .chube {
+        font-size: 11px;
+    }
+    input.form-control.acount {
+        height: 46px;
+    }
+    input#inputAddress {
+        height: 146px;
+    }
+    .feedback {
+        height: 610px;
+    }
+}
+@media only screen and (max-width:767px){
+    .noidung {
+        font-size: 17px;
+        margin-top: 25px;
+        /* margin-top: 80px; */
+    }
+    .eachskill {
+        width: 50%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .skill {
+        height: 612px;
+    }
+    .tenskill{
+        margin-top: 20px;
+    }
+    .skillpercent {
+        width: 100%;
+        margin-top: 27px;
+    }
+    .maucam {
+        width: 167px;
+        height: 38px;
+        font-size: 15px;
+        margin-top: 36px;
+    }
+    .tieude {
+        height: 326px;
+    }
+    span.navbar-toggler-icon {
+        width: 22px;
+    }
+    .tenservice {
+        font-size: 9px;
+    }
+    .chuto {
+        font-size: 20px;
+    }
+    .noidungservice .chuaanh img {
+        height: 65px;
+    }
+    .employee .chuto {
+        width: 80%;
+    }
+    .gioithieu {
+        width: 100%;
+        height: 80px;
+        overflow: hidden;
+    }
+    .members .row .infomember .hinh {
+        width: 70px;
+        height: 70px;
+    }
+    .tenmember {
+        font-size: 8px;
+    }
+    .memberrole {
+        font-size: 7px;
+    }
+    .row.hang {
+        margin-top: 19px;
+    }
+    .employee .chube {
+        font-size: 13px;
+    }
+    .employee {
+        height: 440px;
+    }
+    .skill .chuto {
+        width: 50%;
+    }
+    .nutport {
+        padding: 3px 12px;
+        font-size: 13px;
+    }
+    .eachabout .dongtext {
+        font-size: 9px;
+    }
+    .maucam {
+        width: 150px;
+        height: 37px;
+        font-size: 10px;
+        margin-top: 33px;
+    }
+    .dautu {
+        height: 666px;
+    }
+    .aboutus .chuto{
+        width: 80%;
+    }
+    .graycircle {
+        width: 40px;
+        height: 40px;
+    }
+    .smalltextreview {
+        font-size: 10px;
+    }
+    .namegroup {
+        font-size: 11px;
+    }
+    .groupreview1 {
+        line-height: 20px;
+    }
+    .positiongroup {
+        font-size: 8px;
+    }
+    .row.review1 {
+        margin-top: 29px;
+    }
+    .aboutus {
+        height: 545px;
+    }
+    .feedback .chube {
+        font-size: 10px;
+        width: 60%;
+    }
+    .feedback {
+        height: 490px;
+    }
+    .infofeedback {
+        margin-top: 34px;
+    }
+    input.form-control.acount {
+        height: 36px;
+        font-size: 13px;
+    }
+    input#inputAddress {
+        height: 115px;
+        font-size: 13px;
+    }
+    .lh{
+        font-size: 13px;
+    }
+    .contact{
+        height: 94px;
+    }
+    .row.contact_{
+        padding-top: 37px;
+    }
+}
+@media only screen and (max-width:576px){
+    img.logo {
+        width: 73px;
+        margin-left: 43px;
+        margin-top: 43px;
+    }
+    .menu{
+        margin-top: 31px;
+        margin-right: 58px;
+    }
+    .tieude {
+        height: 288px;
+    }
+    button.navbar-toggler {
+        font-size: 14px;
+    }
+    .noidung {
+        font-size: 14px;
+    }
+    .chuto{
+        width: 80%;
+        font-size: 16px;
+        padding-top: 34px;
+    }
+    .chube{
+        font-size: 11px;
+    }
+    .noidungservice {
+        width: 50%;
+        margin-top: 20px;
+    }
+    .service {
+        margin-top: 20px;
+    }
+    .servicebanner {
+        height: 568px;
+    }
+    .skill {
+        height: 547px;
+    }
+    .noidungservice .chuaanh img {
+        height: 58px;
+    }
+    .infomember {
+        width: 50%;
+        padding-top: 20px;
+    }
+    .employee {
+        height: 630px;
+    }
+    .gioithieu {
+        margin-top: 4px;
+    }
+    .employee .chube {
+        font-size: 11px;
+    }
+    .nutport{
+        width: 17%;
+        font-size: 10px;
+        padding: 1px 3px;
+    }
+    .eachabout .dongtext {
+        font-size: 6px;
+    }
+    .dautu {
+        height: 604px;
+    }
+    .aboutus {
+        height: 646px;
+    }
+    .smalltextreview{
+        margin-bottom: 0px;
+    } 
+    .row.review1 {
+        margin-top: 10px;
+    }
+    .row.col-sm-6.reviewleft {
+        margin-top: 13px;
+    }
+    .groupreview1 {
+        line-height: 15px;
+    }
+    .lh {
+        font-size: 10px;
+    }
+    .contact {
+        height: 68px;
+    }
+    .row.contact_ {
+        padding-top: 29px;
+    }
+    .feedback {
+        height: 460px;
+    }
+    input#inputAddress {
+        height: 84px;
+        font-size: 11px;
+    }
+    input.form-control.acount {
+        height: 31px;
+        font-size: 11px;
+    }
+}

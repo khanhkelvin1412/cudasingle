@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- load library Bootstrapt -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <!-- load Jquery library -->
+    <script src="https://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+
+    <!-- load tween max library -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+
+    <!-- load css file -->
+    <link rel="stylesheet" href="../css/CudaSingle.css">
+    <link rel="stylesheet" href="../css/queries.css">
+    <!-- load js file -->
+    <script src="../js/Cuda.js"></script>
+
+    <title>Cuda Single Page</title>
+</head>
+
+<body>
+    <div class="containter tieude">
+
+        <img src="../images/newlog.png" alt="" class="logo">
+
+        <div class="menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item maudam kc0">
+                            <a class="nav-link text-light" href="#">Home</a>
+                        </li>
+                        <li class="nav-item kc1">
+                            <a class="nav-link text-light" href="#">About</a>
+                        </li>
+                        <li class="nav-item kc2">
+                            <a class="nav-link text-light" href="#">Work</a>
+                        </li>
+                        <li class="nav-item kc3">
+                            <a class="nav-link text-light" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item kc4">
+                            <a class="nav-link text-light" href="#">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="noidung">
+            <div class="noidungtren">
+                Hi there! We are the new kids on the block
+            </div>
+            <div class="noidungduoi">
+                and we build awesome websites and mobile apps.
+            </div>
+        </div>
+
+        <div class="nut">
+            <button type="button" class="btn btn-warning text-light shadow-sm maucam">WORK WITH US!</button>
+        </div>
+
+    </div>
+    <!-- het phan header -->
+
+    <div class="servicebanner">
+        <div class="chuto">
+            SERVICES WE PROVIDE
+        </div>
+        <div class="gachdong"></div>
+        <div class="chube">
+            We are working with both individuals and businesses from all over the globe
+            to create awesome websites and applications.
+        </div>
+        <div class="service">
+            <div class="row row_hang">
+                <div class="col-sm-3 noidungservice">
+                    <div class="chuaanh">
+                        <img src="../images/laco.png" alt="">
+                    </div>
+                    <div class="tenservice">BRANDING</div>
+                    <div class="text">
+                        Lorem ipsum dolor sit amet,
+                        consectetuer adipiscing elit, sed diam nonummy nibh.
+                    </div>
+                </div>
+                <div class="col-sm-3 noidungservice">
+                    <div class="chuaanh">
+                        <img src="../images/butchi.png" alt="">
+                    </div>
+                    <div class="tenservice">DESIGN</div>
+                    <div class="text">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                    </div>
+                </div>
+                <div class="col-sm-3 noidungservice">
+                    <div class="chuaanh">
+                        <img src="../images/setting.png" alt="">
+                    </div>
+                    <div class="tenservice">DEVELOPMENT</div>
+                    <div class="text">
+                        At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.
+                    </div>
+                </div>
+                <div class="col-sm-3 noidungservice">
+                    <div class="chuaanh">
+                        <img src="../images/tenlua.png" alt="">
+                    </div>
+                    <div class="tenservice">ROCKET SCIENCE</div>
+                    <div class="text">
+                        Et harum quidem rerum est et expedita distinctio. Nam libero tempore.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- het service -->
+    </div>
+    <!-- het trang thu 2 -->
+
+    <div class="employee">
+        <div class="chuto">
+            MEET OUR BEAUTIFUL TEAM
+        </div>
+        <div class="gachdong"></div>
+        <div class="chube">
+            We are a small team of designers and developers, who help brands with big ideas.
+        </div>
+        <div class="members">
+            <div class="row hang">
+                <div class="infomember col-sm-3">
+                    <div class="hinh"></div>
+                    <div class="tenmember">
+                        ANNE HATHAWAY
+                    </div>
+                    <div class="memberrole">
+                        CEO/Marketing Guru
+                    </div>
+                    <div class="gioithieu">
+                        Lorem ipsum dolor sit amet,
+                        consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
+                    </div>
+                    <div class="row lienhe">
+                        <div class="icon col-sm-3">
+                            <img src="../images/facebook.png" alt="">
+                        </div>
+                        <div class="icon col-sm-3">
+                            <img src="../images/twiter.png" alt="">
+                        </div>
+                        <div class="icon col-sm-3">
+                            <img src="../images/in.png" alt="">
+                        </div>
+                        <div class="icon col-sm-3">
+                            <img src="../images/mail.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="infomember col-sm-3">
+                    <div class="hinh"></div>
+                    <div class="tenmember">
+                        KATE UPTON
+                    </div>
+                    <div class="memberrole">
+                        Create Director
+                    </div>
+                    <div class="gioithieu">
+                        Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur
+                        sint occaecat non diam proident.
+                    </div>
+                    <div class="row lienhe">
+                        <div class="icon col-sm-4">
+                            <img src="../images/twiter.png" alt="">
+                        </div>
+                        <div class="icon col-sm-4">
+                            <img src="../images/in.png" alt="">
+                        </div>
+                        <div class="icon col-sm-4">
+                            <img src="../images/mail.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="infomember col-sm-3">
+                    <div class="hinh"></div>
+                    <div class="tenmember">
+                        OLIVIA WILDE
+                    </div>
+                    <div class="memberrole">
+                        Lead/Designer
+                    </div>
+                    <div class="gioithieu">
+                        Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+                        eos qui ratione voluptatem nesciunt.
+                    </div>
+                    <div class="row lienhe">
+                        <div class="icon col-sm-3">
+                            <img src="../images/facebook.png" alt="">
+                        </div>
+                        <div class="icon col-sm-3">
+                            <img src="../images/twiter.png" alt="">
+                        </div>
+                        <div class="icon col-sm-3">
+                            <img src="../images/in.png" alt="">
+                        </div>
+                        <div class="icon col-sm-3">
+                            <img src="../images/mail.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="infomember col-sm-3">
+                    <div class="hinh"></div>
+                    <div class="tenmember">
+                        ASHLEY GREENE
+                    </div>
+                    <div class="memberrole">
+                        SEO/Developer
+                    </div>
+                    <div class="gioithieu">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                        laudantium, totam rem aperiam.
+                    </div>
+                    <div class="row lienhe">
+                        <div class="icon col-sm-4">
+                            <img src="../images/facebook.png" alt="">
+                        </div>
+                        <div class="icon col-sm-4">
+                            <img src="../images/twiter.png" alt="">
+                        </div>
+                        <div class="icon col-sm-4">
+                            <img src="../images/mail.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- complete employee -->
+
+
+    <div class="skill">
+        <div class="chuto">
+            WE GOT SKILL!
+        </div>
+        <div class="gachdong"></div>
+        <div class="chube">
+            We are working with both individuals and businesses from all over the globe
+            to create awesome websites and applications.
+        </div>
+        <div class="skillpercent">
+            <div class="fourskill">
+                <div class="eachskill">
+                    <div class="circlechart xanhduong" data-percentage="90">
+                    </div>
+                    <div class="tenskill">
+                        WEB DESIGN
+                    </div>
+                </div>
+                <div class="eachskill">
+                    <div class="circlechart hong" data-percentage="75">
+                    </div>
+                    <div class="tenskill">
+                        HTML / CSS 
+                    </div>
+                </div>
+                <div class="eachskill">
+                    <div class="circlechart xanhla" data-percentage="70">
+                    </div>
+                    <div class="tenskill">
+                        GRAPHIC DESIGN
+                    </div>
+                </div>
+                <div class="eachskill">
+                    <div class="circlechart cam" data-percentage="85">
+                    </div>
+                    <div class="tenskill">
+                        UI / UX
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div class="dautu">
+        <div class="chuto">
+            OUR PORTFOLIO
+        </div>
+        <div class="gachdong"></div>
+        <div class="chube">
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
+            consectetur, adipisci velit, sed quia non numquam
+        </div>
+        <div class="row cacnut">
+            <button type="button" class="btn btn-primary nutport sammau">ALL</button>
+            <button type="button" class="btn btn-secondary nutport">WEB</button>
+            <button type="button" class="btn btn-success nutport">APPS</button>
+            <button type="button" class="btn btn-danger nutport">ICONS</button>
+        </div>
+        <div class="portabout">
+            <div class="eachabout">
+                <img src="../images/tv1.png" alt="">
+                <div class="dongtext">Isometric Perspective Mock-U</div>
+            </div>
+            <div class="eachabout">
+                <img src="../images/tv2.png" alt="">
+                <div class="dongtext">Isometric Perspective Mock-U</div>
+            </div>
+            <div class="eachabout">
+                <img src="../images/tv3.png" alt="">
+                <div class="dongtext">Isometric Perspective Mock-U</div>
+            </div>
+            <div class="eachabout">
+                <img src="../images/tv4.png" alt="">
+                <div class="dongtext">Isometric Perspective Mock-U</div>
+            </div>
+        </div>
+        <div class="nut">
+            <button type="button" class="btn btn-warning text-light shadow-sm maucam xanh">LOAD MORE PROJECTS</button>
+        </div>
+    </div>
+    <div class="aboutus">
+        <div class="chuto">
+            WHAT PEOPLE SAY ABOUT US
+        </div>
+        <div class="gachdong"></div>
+        <div class="chube">
+            Our clients love us!
+        </div>
+        <!-- complete tieu de -->
+
+        <div class="review">
+            <div class="row review1">
+                <div class="row col-sm-6 reviewleft">
+                    <div class="col-sm-3 circle">
+                        <div class="graycircle"></div>
+                    </div>
+                    <div class="col-sm-9 groupreview">
+                        <div class="smalltextreview">
+                            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quod odit ad ipsum"
+                        </div>
+                        <div class="groupreview1">
+                            <div class="namegroup">
+                                CHANEL IMAN
+                            </div>
+                            <div class="positiongroup">
+                                CEO of Printerest
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row col-sm-6 reviewleft">
+                    <div class="col-sm-3 circle">
+                        <div class="graycircle"></div>
+                    </div>
+                    <div class="col-sm-9 groupreview">
+                        <div class="smalltextreview">
+                            "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+                            interested."
+                        </div>
+                        <div class="groupreview1">
+                            <div class="namegroup">
+                                ADRIANA LIMA
+                            </div>
+                            <div class="positiongroup">
+                                Founder of Instagram
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row review1">
+                <div class="row col-sm-6 reviewleft">
+                    <div class="col-sm-3 circle">
+                        <div class="graycircle"></div>
+                    </div>
+                    <div class="col-sm-9 groupreview">
+                        <div class="smalltextreview">
+                            "Many desktop publishing packages and web page editors now use Lorem Ipsum as their"
+                        </div>
+                        <div class="groupreview1">
+                            <div class="namegroup">
+                                ANNE HATHAWAY
+                            </div>
+                            <div class="positiongroup">
+                                Lead Designer at Behance
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row col-sm-6 reviewleft">
+                    <div class="col-sm-3 circle">
+                        <div class="graycircle"></div>
+                    </div>
+                    <div class="col-sm-9 groupreview">
+                        <div class="smalltextreview">
+                            "There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form"
+                        </div>
+                        <div class="groupreview1">
+                            <div class="namegroup">
+                                EMMA STONE
+                            </div>
+                            <div class="positiongroup">
+                                Co-Founder of Shazam
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="feedback">
+        <div class="chuto">
+            GET IN TOUCH
+        </div>
+        <div class="gachdong"></div>
+        <div class="chube">
+            1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111
+        </div>
+        <!-- complete tieu de -->
+
+        <div class="infofeedback">
+            <div class="nameandemail">
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control acount" placeholder="Your Name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control acount" placeholder="Your Email">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="message">
+                <input type="text" class="form-control tinnhan" id="inputAddress" placeholder="Your Message">
+            </div>
+        </div>
+        <!-- xong phan name, email, message -->
+        <div class="nut">
+            <button type="button" class="btn btn-warning text-light shadow-sm maucam xanhnuoc">SEND MESSAGE</button>
+        </div>
+    </div>
+
+    <div class="contact">
+        <div class="row contact_">
+            <div class="lh face">Facebook</div>
+            <div class="lh twiter">Twitter</div>
+            <div class="lh google">Google+</div>
+            <div class="lh linked">LinkedIn</div>
+            <div class="lh behance">Behance</div>
+            <div class="lh drible">Dribble</div>
+            <div class="lh github">GitHub</div>
+        </div>
+    </div>
+
+    <script src="../js/progresscircle.js"></script>
+
+    <script>
+        $(function(){
+
+$('.circlechart').circlechart({
+
+});
+
+});
+    </script>
+</body>
+
+</html>
